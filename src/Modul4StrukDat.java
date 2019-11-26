@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//import java.lang.String;
 class Node{
     char data;
     Node next;
@@ -70,6 +69,7 @@ public class Modul4StrukDat {
         for(char c:coba){
             st.push(c);
         }
+
         st.printStack();
         System.out.println("Setelah dibalik : ");
         st.Reversed();

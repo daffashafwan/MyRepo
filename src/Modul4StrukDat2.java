@@ -18,7 +18,7 @@ class Queue{
     }
     public void enqueue(String pasienBaru){
         Node2 nodBaru = new Node2(pasienBaru);
-        if(head==null){
+        if(isEmpty()){
             head = nodBaru;
             tail = nodBaru;
         }else{
@@ -28,7 +28,7 @@ class Queue{
     }
     public String dequeue(){
         String dataBuang = null;
-        if(head==null){
+        if(isEmpty()){
             System.out.println("Tidak ada data");
         }else{
             dataBuang = head.dataPasien;
@@ -95,6 +95,7 @@ class menu{
 
 public class Modul4StrukDat2 {
     public static void main(String[] args) {
+
         menu mn = new menu();
         mn.menuRS();
     }
