@@ -3,3 +3,4 @@ https://www.rdocumentation.org/packages/BBmisc/versions/1.10/topics/normalize
 https://stats.stackexchange.com/questions/70801/how-to-normalize-data-to-0-1-range
 https://www.techwalla.com/articles/how-to-find-the-z-score-using-microsoft-excel
 https://t4tutorials.com/how-to-normalize-the-data-with-min-max-normalization-in-data-mining/
+https://machinelearningmastery.com/statistical-hypothesis-tests/
