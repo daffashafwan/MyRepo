@@ -1,9 +1,9 @@
-import java.text.NumberFormat;
+
 import java.text.ParseException;
 import java.util.Scanner;
 
 class binarySearch{
-    Number[] num = {1.0,24343433,3,4,5};
+   // Number[] num = {1.0,24343433,3,4,5};
     Number[] data;
     Number target;
 
@@ -15,7 +15,7 @@ class binarySearch{
         this.target = target;
     }
 
-    public int isTargetFound() throws ParseException {
+    public int isTargetFound() {
         Number[] hasilSorting = sortingData();
         int low = 0;
         int high = hasilSorting.length-1;
@@ -33,7 +33,7 @@ class binarySearch{
         }
         return -1;
     }
-    Number[] sortingData() throws ParseException {
+    Number[] sortingData()  {
         Number temp;
         for(int i = 0;i<data.length;i++){
             for(int j = 0;j<data.length-1;j++){
@@ -41,7 +41,6 @@ class binarySearch{
                     temp = data[i];
                     data[i]=data[j];
                     data[j]= temp;
-
                 }
             }
         }
@@ -55,13 +54,11 @@ class binarySearch{
 }
 public class Modul5Strukdat {
     public static void main(String[] args) throws ParseException {
-        Number[] num = {3,45,6.4,54345};
+        Number[] num = {3,45,6.4,5434523};
         binarySearch bs = new binarySearch(num);
         bs.setTarget(6.4);
         System.out.println("\nAda di indeks ke = "+bs.isTargetFound());
 
-//        int isFound = bs.isTargetFound();
-//        System.out.println("Data ada di indeks ke : "+isFound);
 
     }
 }

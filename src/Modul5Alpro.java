@@ -135,6 +135,7 @@ public class Modul5Alpro {
             int ascii = c;
             bt.newDataAscii(ascii);
         }
+
         System.out.println("In Order : ");
         bt.inOrder(bt.root);
         System.out.println("\npre Order : ");
