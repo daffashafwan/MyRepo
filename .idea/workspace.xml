@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8870c3ae-b96e-4047-992e-330ab39f1392" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Modul6StrukDat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul6Alpro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul6Alpro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Modul6Alpro">
-    <configuration name="Modul4StrukDat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modul4StrukDat2" />
-      <module name="ModulPrak" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Modul6StrukDat">
     <configuration name="Modul5Alpro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Modul5Alpro" />
       <module name="ModulPrak" />
@@ -74,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Modul6StrukDat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul6StrukDat" />
+      <module name="ModulPrak" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Modul6StrukDat" />
         <item itemvalue="Application.Modul6Alpro" />
         <item itemvalue="Application.Modul5Strukdat2" />
         <item itemvalue="Application.Modul5Strukdat" />
         <item itemvalue="Application.Modul5Alpro" />
-        <item itemvalue="Application.Modul4StrukDat2" />
       </list>
     </recent_temporary>
   </component>
