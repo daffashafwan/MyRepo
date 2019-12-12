@@ -5,3 +5,6 @@ https://www.techwalla.com/articles/how-to-find-the-z-score-using-microsoft-excel
 https://t4tutorials.com/how-to-normalize-the-data-with-min-max-normalization-in-data-mining/
 https://machinelearningmastery.com/statistical-hypothesis-tests/
 https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/
+#T-test vs Z-Test
+https://towardsdatascience.com/statistical-tests-when-to-use-which-704557554740
+https://bloomingtontutors.com/blog/when-to-use-the-z-test-versus-t-test
